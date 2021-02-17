@@ -17,7 +17,7 @@ services:
     image: postgres:12.5
     environment:
       POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: jasamikoj
+      POSTGRES_PASSWORD: pass
     volumes:
       - postgres_data:/var/lib/postgresql/data/
 volumes:
